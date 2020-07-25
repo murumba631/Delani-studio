@@ -1,10 +1,14 @@
-#starting{
-    text-align: center;
-    background-image: url('backgrounds/h_img.jpg');
-}
 body{
     text-align: center;
+    background-image: url('https://github.com/murumba631/Delani-studio/blob/master/assets/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
 }
-#starting{
-    background-image: url();
+#dev-paragraph{
+    display: none;
+}
+#des-paragraph{
+    display: none;
+}
+#product-paragraph{
+    display: none;
 }
