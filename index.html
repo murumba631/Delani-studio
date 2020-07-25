@@ -9,11 +9,12 @@
     </head>
     <body>
         <div class="container">
-            <div class="card" id="starting">
+            <div class="card">
                 <img src="assets/logo/logo.png" alt="delani-logo"><br>
                 <h1>WELCOME <br>TO DELANI STUDIO</h1>
                 <br>
                 <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h5>    
+            </div>    
             </div>
             <h2>ABOUT US</h2>
             <p>
@@ -37,25 +38,28 @@
                     Based on requirements, we can provide a complete offering or just the pieces you need.
                 </p>
             </div>
-            <div class="row">
-                <div id="what-we-do">       
-                    <div class="col-md-4">
-                        <div id="design">
+            <div class="row">       
+                <div class="col-md">
+                    <div id="design">
+                        <span class="clickable1">
                             <img src="assets/services_icons/design_icon.png" alt="design-icon">
-                            Design
-                        </div>
-                        <div id="des-paragraph">
-                            <p>
-                                Our design practice offers a full range of services including brand strategy, 
-                                interaction and visual design and user experience testing.
-                                Throughout your project, our designers create and implement visual design and 
-                                workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
-                            </p>
-                        </div>
+                        </span>
+                        Design
                     </div>
-                    <div class="col-md-4">
+                    <div id="des-paragraph">
+                        <p>
+                           Our design practice offers a full range of services including brand strategy, 
+                            interaction and visual design and user experience testing.
+                            Throughout your project, our designers create and implement visual design and 
+                            workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md">
                         <div id="development">
-                            <img src="assets/services_icons/dev_icon.png" alt="developer-icon">
+                            <span class="clickable2">
+                                <img src="assets/services_icons/dev_icon.png" alt="developer-icon">
+                            </span>
                             Development
                         </div>
                         <div id="dev-paragraph">
@@ -66,9 +70,11 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md">
                         <div id="product">
-                            <img src="assets/services_icons/product_icon.png" alt="product-icon">
+                            <span class="clickable3">
+                                <img src="assets/services_icons/product_icon.png" alt="product-icon">
+                            </span>
                             Product Management
                         </div>
                         <div id="product-paragraph">
@@ -115,8 +121,8 @@
         </div>
         <div class="container-fluid">
             <form>
-                <input type="text" id="userName" placeholder="Enter Name">
-                <input type="email" id="mail" placeholder="Enter Email">
+                <input type="text" id="userName" value="" placeholder="Enter Name">
+                <input type="email" id="mail" value="" placeholder="Enter Email">
                 <input type="submit" id="submit">
             </form>
         </div>
