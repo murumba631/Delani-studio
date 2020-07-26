@@ -3,9 +3,7 @@ $(document).ready(function() {
         var name = document.getElementById("userName");
 
         if (name != '') {
-            alert('Thank you ${name} for your response, you wil receive an email shortly')
-        } else(){
-            alert('Invalid input')
+            alert("Thank you " + name + " for your response, you wil receive an email shortly")
         }
         event.preventDefault();
     })
@@ -34,4 +32,12 @@ $(document).ready(function(){
     $(".clickable3").click(function(){
         $("#product-paragraph").fadeIn(1500);
     });
+});
+$(document).ready(function(){
+    $('.appear').hover(function () {
+    $(this).animate({opacity:'1'});
+    },
+    function () {
+    $(this).animate({opacity:'0'});
+})
 });
