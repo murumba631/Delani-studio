@@ -2,9 +2,13 @@ $(document).ready(function() {
     $("#submit").submit(function() {
         var name = document.getElementById("userName");
 
+        if (name != '') {
+            alert('Thank you ${name} for your response, you wil receive an email shortly')
+        } else(){
+            alert('Invalid input')
+        }
         event.preventDefault();
-    });
-    alert("Thank you " + name + " for your response.");
+    })
 });
 
 $(document).ready(function(){
