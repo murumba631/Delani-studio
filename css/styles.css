@@ -1,14 +1,23 @@
+html{
+    scroll-behavior: smooth;
+}
+#page-head{
+    background: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true');
+    text-color
+}
 body{
     text-align: center;
-    background-image: url('https://github.com/murumba631/Delani-studio/blob/master/assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
 }
 #dev-paragraph{
     display: none;
+    column-count: auto;
 }
 #des-paragraph{
     display: none;
+    column-count: auto;
 }
 #product-paragraph{
     display: none;
+    column-count: auto;
 }
