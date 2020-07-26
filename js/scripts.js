@@ -35,9 +35,9 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $('.appear').hover(function () {
-    $(this).animate({opacity:'1'});
+    $(this).animate({opacity:'0'});
     },
     function () {
-    $(this).animate({opacity:'0'});
+    $(this).animate({opacity:'1'});
 })
 });
