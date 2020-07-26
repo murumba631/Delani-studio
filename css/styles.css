@@ -17,6 +17,8 @@ html{
 body{
     text-align: center;
     background-repeat: no-repeat;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
 }
 #services{
     background: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true');
@@ -26,7 +28,7 @@ body{
     padding-bottom: 90px;
 }
 #developmaent{
-    padding top: 90px;
+    padding-top: 90px;
 }
 #portfolio{
     padding-bottom: 90px;
@@ -34,15 +36,12 @@ body{
 }
 #dev-paragraph{
     display: none;
-    column-count: auto;
 }
 #des-paragraph{
     display: none;
-    column-count: auto;
 }
 #product-paragraph{
     display: none;
-    column-count: auto;
 }
 #contact{
     background: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true');
@@ -64,21 +63,4 @@ form input, form textarea{
 }
 ::placeholder{
     color: darkgrey;
-}
-#mail, #userName{
-    padding-bottom: 10px;
-}
-#message{
-    padding-bottom: 90px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-.nameinput{
-    border: 30px;
-}
-.emailinput{
-    border: 30px;
-}
-.messageinput{
-    border: 50px;
 }
