@@ -31,8 +31,9 @@ body{
     padding-top: 90px;
 }
 #portfolio{
-    padding-bottom: 90px;
-    padding-top: 90px;
+    cursor: pointer;
+    padding-left: 90px;
+    padding-right: 100px;
 }
 #dev-paragraph{
     display: none;
@@ -58,9 +59,9 @@ footer{
     max-width: 70vw;
     margin: 0 auto;
 }
-form input, form textarea{
-    background: transparent;
+#name, #email, #message{
+    opacity: 0.6;
 }
 ::placeholder{
-    color: darkgrey;
+    color: white;
 }

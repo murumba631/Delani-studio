@@ -1,43 +1,44 @@
 $(document).ready(function() {
-    $("#submit").submit(function() {
-        var name = document.getElementById("userName");
 
-        if (name != '') {
-            alert("Thank you " + name + " for your response, you wil receive an email shortly")
-        }
-        event.preventDefault();
-    })
-});
-
-$(document).ready(function(){
     $(".clickable1").click(function(){
         $("#design").fadeOut();
     });
     $(".clickable1").click(function(){
         $("#des-paragraph").fadeIn(1500);
     });
-});
-$(document).ready(function(){
+
     $(".clickable2").click(function(){
         $("#development").fadeOut();
     });
     $(".clickable2").click(function(){
         $("#dev-paragraph").fadeIn(1500);
     });
-});
-$(document).ready(function(){
+
     $(".clickable3").click(function(){
         $("#product").fadeOut();
     });
     $(".clickable3").click(function(){
         $("#product-paragraph").fadeIn(1500);
     });
-});
-$(document).ready(function(){
+
     $('.appear').hover(function () {
     $(this).animate({opacity:'0'});
     },
     function () {
-    $(this).animate({opacity:'1'});
-})
+    $(this).animate({opacity:'0.75'});
+    });
+});
+$(document).ready(function(){
+    $("#contact-info").submit(function(event){
+        var name = $('input#name').val();
+        var email = $('input#email').val();
+        var message = $ ('textarea#message').val();
+
+        if (name && email) {
+            alert("Thank you " + name + " for your response.");
+        }   else () {
+            alert("Invalid input kindly fill the for");
+            event.preventDefault();
+        }   
+    });   
 });
