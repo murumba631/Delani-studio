@@ -34,11 +34,10 @@ $(document).ready(function(){
         var email = $('input#email').val();
         var message = $ ('textarea#message').val();
 
-        if (name && email) {
-            alert("Thank you " + name + " for your response.");
-        }   else () {
-            alert("Invalid input kindly fill the for");
-            event.preventDefault();
-        }   
+        if( name && email ) {
+            alert( "Thank you " + name + " for your response we will also like it if you filled the next form.");
+        }   else {
+            alert("Invalid input kindly fill in the form.");
+        }
     });   
 });
