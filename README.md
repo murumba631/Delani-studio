@@ -5,6 +5,16 @@
 
 ## Descrition
 
-This is a webpge about a studio where coding is done and the products or rather the work done by the studio is well displayed and marketed in the site which I've taken the liberty to provide the link below.
+This is a landing page for Delani Studio, a software developers' studio, the page contains the following:
 
-https://murumba631.github.io/Delani-studio/
+- An about section detailing what is done in the studio.
+
+- A services section which details what the studio offers to its clients.
+
+- A what we do section that explains what they do in the studio.
+
+- A portfolio section showing various projects done by the studio.
+
+- A contact us section where one can submit their name and email, it also redirects the user to a registration form from mailchimp.
+
+-  Link to the published site: https://murumba631.github.io/Delani-studio/
